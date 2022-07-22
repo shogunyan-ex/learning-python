@@ -64,7 +64,7 @@ class AboutStrings(unittest.TestCase):
         value2 = 2
         string = "The values are {0} and {1}".format(value1, value2)
 
-        assert (value1, value2) == string
+        assert "The values are one and 2" == string
 
     def test_strings_can_change_case(self):
 
