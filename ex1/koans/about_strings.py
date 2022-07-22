@@ -28,7 +28,7 @@ class AboutStrings(unittest.TestCase):
 
         string = "Hello, " + "world"
 
-        assert Concatenate == string
+        assert "Hello, world" == string
 
     def test_plus_will_not_modify_original_strings(self):
 
