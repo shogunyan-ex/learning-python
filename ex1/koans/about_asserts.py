@@ -10,7 +10,7 @@ class AboutAsserts(unittest.TestCase):
 
     def test_assert_truth(self):
 
-        assert False # replace with True
+        assert True # replace with True
 
     def test_equality(self):
 
