@@ -56,7 +56,7 @@ class AboutStrings(unittest.TestCase):
 
         words = ["Now", "is", "the", "time"]
 
-        assert __ == ' '.join(words)
+        assert "Now is the time" == ' '.join(words)
 
     def test_use_format_to_interpolate_variables(self):
 
