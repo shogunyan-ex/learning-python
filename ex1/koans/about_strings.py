@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from typing_extensions import Concatenate
 import unittest
 
 __ = False
