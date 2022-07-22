@@ -71,7 +71,7 @@ class AboutStrings(unittest.TestCase):
         assert 'Guido' == 'guido'.capitalize()
         assert 'GUIDO' == 'guido'.upper()
         assert 'timbot' == 'TimBot'.lower()
-        assert 'Guido van Rossum' == 'guido van rossum'.title()
+        assert 'Guido Van Rossum' == 'guido van rossum'.title()
         assert 'tOtAlLy AwEsOmE' == 'ToTaLlY aWeSoMe'.swapcase()
 
     def test_you_can_get_a_substring_from_a_string(self):
