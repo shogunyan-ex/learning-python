@@ -14,7 +14,7 @@ class AboutStrings(unittest.TestCase):
         string = "Hello, world."
 
         # assert that the type of string is str:
-        assert string == str
+        assert type(string) == str
 
     def test_create_string_out_of_an_integer(self):
 
