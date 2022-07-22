@@ -35,7 +35,7 @@ class AboutStrings(unittest.TestCase):
         there = "world"
         string = hi + there
 
-        assert "Hello" == hi
+        assert "Hello, " == hi
         assert "world" == there
         assert hi + there == string
 
