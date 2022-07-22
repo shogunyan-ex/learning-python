@@ -50,7 +50,7 @@ class AboutStrings(unittest.TestCase):
         string = "Sausage Egg Cheese"
         words = string.split()
 
-        assert [Sausage, Egg, Cheese] == words
+        assert ["Sausage", "Egg", "Cheese"] == words
 
     def test_strings_can_be_joined(self):
 
