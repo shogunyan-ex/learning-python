@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from typing_extensions import Concatenate
 import unittest
 
 __ = False
@@ -27,7 +28,7 @@ class AboutStrings(unittest.TestCase):
 
         string = "Hello, " + "world"
 
-        assert __ == string
+        assert Concatenate == string
 
     def test_plus_will_not_modify_original_strings(self):
 
