@@ -35,9 +35,9 @@ class AboutStrings(unittest.TestCase):
         there = "world"
         string = hi + there
 
-        assert __ == hi
-        assert __ == there
-        assert __ == string
+        assert "Hello" == hi
+        assert "world" == there
+        assert hi + there == string
 
     def test_len_returns_length_of_string(self):
 
