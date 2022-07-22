@@ -21,7 +21,7 @@ class AboutStrings(unittest.TestCase):
         string = str(123)
 
         # assert that the type of string is str:
-        assert type(string) == __
+        assert type(string) == str
 
     def test_plus_concatenates_strings(self):
 
