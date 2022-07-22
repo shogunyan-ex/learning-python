@@ -68,11 +68,11 @@ class AboutStrings(unittest.TestCase):
 
     def test_strings_can_change_case(self):
 
-        assert __ == 'guido'.capitalize()
-        assert __ == 'guido'.upper()
-        assert __ == 'TimBot'.lower()
-        assert __ == 'guido van rossum'.title()
-        assert __ == 'ToTaLlY aWeSoMe'.swapcase()
+        assert 'Guido' == 'guido'.capitalize()
+        assert 'GUIDO' == 'guido'.upper()
+        assert 'timbot' == 'TimBot'.lower()
+        assert 'Guido van Rossum' == 'guido van rossum'.title()
+        assert 'tOtAlLy AwEsOmE' == 'ToTaLlY aWeSoMe'.swapcase()
 
     def test_you_can_get_a_substring_from_a_string(self):
 
