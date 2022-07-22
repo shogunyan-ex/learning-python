@@ -17,3 +17,5 @@ jobs:
         run: python -m pip install --upgrade pip
       - name: Run python programm
         run: python hello.py
+      - name: Run Koans
+        run: python ex1/contemplate_koans.py
