@@ -43,7 +43,7 @@ class AboutStrings(unittest.TestCase):
 
         hi = "hi"
 
-        assert 1 == len(hi)
+        assert 2 == len(hi)
 
     def test_strings_can_be_split(self):
 
